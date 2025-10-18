@@ -82,13 +82,38 @@ hr{
   border: none;
   border-top: 1px solid hsl(33, 6%, 72%, 50%);
 }
-@media (min-width: 768px) {
-  .content {
-    padding: 3rem 6rem;
+@media (min-width: 860px) and (max-width: 1199px) {
+  body{
+    background-color: hsla(329, 100%, 92%, 0.76);
+  }
+  .container {
+    max-width: 600px;
+    margin: 3rem auto;
+    background-color: white;
+    box-shadow: 0 4px 6px hsl(33, 6%, 72%, 50%);
+    border-radius: 25px;
+    padding: 2rem;
+  }
+  img{
+    border-radius: 20px;
   }
 }
 @media (min-width: 1200px) {
-  .content {
-    padding: 3rem 12rem;
+  body{
+    background-color: hsla(329, 100%, 92%, 0.76);
+  }
+  .content{
+    padding: 2.5rem 0;
+  }
+  .container {
+    max-width: 600px;
+    margin: 5rem auto;
+    background-color: white;
+    box-shadow: 0 4px 6px hsl(33, 6%, 72%, 50%);
+    border-radius: 25px;
+    padding: 2rem;
+  }
+  img{
+    border-radius: 20px;
   }
 }
