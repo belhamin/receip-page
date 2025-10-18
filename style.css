@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+  font-size: 16px;
+}
+.content {
+  padding: 1.9rem;
+}
+li::marker {
+  color: hsl(14, 45%, 36%);
+}
+.container img {
+  width: 100%;
+}
+.intro h1 {
+  font-family: "Young Serif", serif;
+  text-align: start;
+  color: hsl(24, 5%, 18%);
+  margin-bottom: 1rem;
+}
+.info {
+  background-color: hsl(330, 100%, 98%);
+  padding: 0 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+.info h3 {
+  text-align: start;
+  padding: 0.5rem 0;
+  color: hsl(332, 51%, 32%);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.info ul {
+  margin: 0 1.5rem;
+  list-style: disc outside;
+}
+.info ul li,
+.ingredients ul li,
+.instructions ol li {
+  padding: 1rem;
+  line-height: 1.5;
+}
+.info ul li::marker {
+  color: hsl(332, 51%, 32%);
+}
+h2 {
+  font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+}
+.ingredients,
+.instructions {
+  margin: 1.5rem 0;
+}
+.ingredients ul {
+  margin: 0 2rem;
+  list-style: disc outside;
+}
+
+.instructions ol {
+  margin: 0 2rem;
+  list-style: decimal outside;
+}
+.nutrition * {
+  margin: 1rem 0;
+}
+.nutrition table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+.nutrition th {
+  text-align: center;
+  font-weight: 400;
+}
+.nutrition td {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+  text-align: center;
+}
+hr{
+  border: none;
+  border-top: 1px solid hsl(33, 6%, 72%, 50%);
+}
+@media (min-width: 768px) {
+  .content {
+    padding: 3rem 6rem;
+  }
+}
+@media (min-width: 1200px) {
+  .content {
+    padding: 3rem 12rem;
+  }
+}
