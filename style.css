@@ -19,22 +19,17 @@ li::marker {
 }
 .intro h1 {
   font-family: "Young Serif", serif;
-  text-align: start;
   color: hsl(24, 5%, 18%);
   margin-bottom: 1rem;
 }
 .info {
-  background-color: hsl(330, 100%, 98%);
   padding: 0 1.5rem;
   border-radius: 8px;
   margin: 1.5rem 0;
+  background-color: hsl(330, 100%, 98%);
 }
 .info h3 {
-  text-align: start;
-  padding: 0.5rem 0;
   color: hsl(332, 51%, 32%);
-  font-size: 1.25rem;
-  font-weight: 600;
 }
 .info ul {
   margin: 0 1.5rem;
