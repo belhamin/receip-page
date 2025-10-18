@@ -21,6 +21,7 @@ li::marker {
   font-family: "Young Serif", serif;
   color: hsl(24, 5%, 18%);
   margin-bottom: 1rem;
+  font-weight: 600;
 }
 .info {
   padding: 0 1.5rem;
@@ -38,7 +39,7 @@ li::marker {
 .info ul li,
 .ingredients ul li,
 .instructions ol li {
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   line-height: 1.5;
 }
 .info ul li::marker {
@@ -82,6 +83,9 @@ hr{
   border: none;
   border-top: 1px solid hsl(33, 6%, 72%, 50%);
 }
+.content > hr{
+  margin: 3rem 0;
+}
 @media (min-width: 860px) and (max-width: 1199px) {
   body{
     background-color: hsla(329, 100%, 92%, 0.76);
@@ -103,11 +107,11 @@ hr{
     background-color: hsla(329, 100%, 92%, 0.76);
   }
   .content{
-    padding: 2.5rem 0;
+    padding: 1.9rem 0;
   }
   .container {
-    max-width: 600px;
-    margin: 5rem auto;
+    max-width: 700px;
+    margin: 9rem auto;
     background-color: white;
     box-shadow: 0 4px 6px hsl(33, 6%, 72%, 50%);
     border-radius: 25px;
